@@ -89,8 +89,8 @@ Command | Description
 /sw list  | Displays the list of loaded arenas with the corresponding world + players playing in them. Example: `TestArena [5/16] => TestWorld` etc.
 /sw delete **[**SWname**]** | This command just deletes an arena.<br/>- **SWname** is the name of the arena that you must give to delete it
 /sw signdelete **[**SWname**\|**all**]** | Do you want to delete a join sign but you forgot where you placed it? This command can help you.<br/>- **SWname** is the arena name, if gived, all the signs pointing to the given arena will be deleted.<br/>- **all** If used as the arena name like `/sw signdelete all`, all the SW signs wil be deleted.<br/>_Are you thinking this command is useless? You'll change your idea about it when you'll have the need._:laughing:
-/sw join **[**SWname**]** [PlayerName] | Anyone except ops can use this command to join SW games.<br/>- **PlayerName** can be used only by CONSOLE to force the player to join the specified arena.
-/sw quit | Anyone except ops can use this command to left the current SW game.
+/sw join **[**SWname**]** [PlayerName] | Anyone except ops can't use this command to join SW games.<br/>- **PlayerName** can be used only by CONSOLE to force the player to join the specified arena.
+/sw quit | Anyone except ops can't use this command to left the current SW game.
 
 #####Here there are some videos that explains how to create an arena in different languages:
 - [Deutsch](//TODO add a video) no video yet
